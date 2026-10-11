@@ -17,3 +17,12 @@
 ### Changed
 - Honest versioning and User-Agent with repo link
 - Proper requests.RequestException handling (no bare except)
+
+## [3.1.0] - 2026-10-11
+### Added
+- Multi-target scanning: --targets file (one URL per line, # comments)
+- Per-target child runs reuse all flags; exit code = worst across targets
+- Aggregated JSON for multi-target runs (single-target shape unchanged)
+- Scheme-less URLs normalized to https://
+### Fixed
+- CORS: '(no Origin)' label instead of 'None'
