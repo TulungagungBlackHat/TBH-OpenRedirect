@@ -1,3 +1,8 @@
+> [!WARNING]
+> **ARCHIVED (2026-10-11)** — this tool now lives in the [TBH Toolkit monorepo](https://github.com/TulungagungBlackHat/TBH-Toolkit):
+> `python3 tbh redirect` (interactive menu: `python3 tbh`).
+> Same flags, same output, same exit codes — one clone for everything. No further updates here.
+
 # TBH-OpenRedirect
 
 <p align="center">
